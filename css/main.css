@@ -1,8 +1,8 @@
 html {
-    background-color: whitesmoke;
-    color: rgb(69, 69, 69);
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 13px;
+    color: whitesmoke;
+    background-color: black;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
     text-align: center;
 }
 
@@ -16,4 +16,5 @@ html {
     text-align: center;
     padding-top: 50px;
     padding-bottom: 10px;
+    line-height: 4px;
 }
