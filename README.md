@@ -2,4 +2,4 @@
 
 Looks like this works.
 
-shotgunape.github.io
+http://shotgunape.github.io/
