@@ -5,3 +5,8 @@ html {
     font-size: 15px;
     text-align: center;
 }
+
+.content {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
