@@ -8,8 +8,13 @@ html {
 
 .sidebar {
     position: fixed;
-    top: 20px;
-    left: 35px;
+    font-size: 18px;
+    top: 5px;
+    left: 15px;
+}
+
+a:link {
+    text-decoration: none;
 }
 
 .content {
