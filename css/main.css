@@ -13,6 +13,13 @@ html {
     left: 15px;
 }
 
+.lastup {
+    position: fixed;
+    font-size: 12px;
+    top: 0px;
+    right: 15px;
+}
+
 a:link {
     text-decoration: none;
 }
@@ -20,6 +27,6 @@ a:link {
 .content {
     text-align: center;
     padding-top: 50px;
-    padding-bottom: 10px;
+    padding-bottom: 30px;
     line-height: 4px;
 }
