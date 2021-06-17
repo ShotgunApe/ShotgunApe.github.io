@@ -6,11 +6,18 @@ html {
     text-align: center;
 }
 
-.sidebar {
+.index {
     position: fixed;
     font-size: 18px;
     top: 10px;
     left: 15px;
+}
+
+.sidebar {
+    position: fixed;
+    font-size: 18px;
+    top: 10px;
+    left: 88px;
 }
 
 .lastup {
@@ -24,9 +31,30 @@ a:link {
     text-decoration: none;
 }
 
+a:hover.index {
+    animation-play-state: running;
+    animation-name: hover;
+    animation-duration: 1100ms;
+    animation-iteration-count: infinite;
+}
+
 .content {
     text-align: center;
     padding-top: 50px;
     padding-bottom: 30px;
     line-height: 4px;
+}
+
+@keyframes hover {
+    0% {color: green}
+    10% {color: yellow}
+    20% {color: blue}
+    30% {color: blueviolet}
+    40% {color: red}
+    50% {color: gray}
+    60% {color: teal}
+    70% {color: orange}
+    80% {color: black}
+    90% {color: white}
+    100% {color: pink}
 }
