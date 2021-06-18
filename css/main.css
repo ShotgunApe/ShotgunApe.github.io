@@ -36,8 +36,9 @@ a:link {
 a:hover.index {
     animation-play-state: running;
     animation-name: hover;
-    animation-duration: 1100ms;
-    animation-iteration-count: infinite;
+    animation-duration: 600ms;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
 }
 
 .content {
@@ -58,15 +59,7 @@ header {
 }
 
 @keyframes hover {
-    0% {color: green}
-    10% {color: yellow}
-    20% {color: blue}
-    30% {color: blueviolet}
-    40% {color: red}
-    50% {color: gray}
-    60% {color: teal}
-    70% {color: orange}
-    80% {color: black}
-    90% {color: white}
-    100% {color: pink}
+    0% {text-shadow: 0 0.5em 0 whitesmoke;}
+    1% {text-shadow: 0 0.5em 0 whitesmoke, 0 1em 0 gray;}
+    2% {text-shadow: 0 0.5em 0 whitesmoke, 0 1em 0 gray, 0 1.5em 0 rgb(32, 32, 32);}
 }
