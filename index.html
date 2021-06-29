@@ -1,50 +1,48 @@
 <!DOCTYPE html>
-
-<head>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/main.css" />
-    <script src="script/main.js"></script>
-    <title>htgn - home</title>
-    <meta charset="utf-8">
-</head>
-
 <html>
+    <head>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="css/main.css" />
+        <script src="script/main.js"></script>
+        <title>htgn - home</title>
+        <meta charset="utf-8">
+        <meta name="description" content="htgn: what's on here">
+        <!--Better for mobile viewing-->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <header>
+        <a class="index" style="color: whitesmoke;" href="index">htgn.xyz</a>
+        <div class="sidebar">
+            <a style="padding-left:6px; padding-right: 6px;">-</a>
+            <a style="color: whitesmoke;" href="who-are-you">what?</a>
+            <a style="color: palevioletred;" href="https://osu.ppy.sh/users/5116930" target="_blank">osu!</a>
+            <a style="color: purple;" href="https://www.twitch.tv/shotgunayyype" target="_blank">twitch</a>
+            <a style="color: red;" href="https://www.youtube.com/channel/UCdjrpcluf6nyC88QY7Vf6QA"
+                target="_blank">youtube</a>
+        </div>
+        <div class="lastup">
+            <p style="letter-spacing: 0.25px; text-align: right;" id="lastModified"></p>
+        </div>
+    </header>
 
-<header>
-    <a class="index" style="color: whitesmoke;" href="index">htgn.xyz</a>
-    <div class="sidebar">
-        <a style="padding-left:6px; padding-right: 6px;">-</a>
-        <a style="color: whitesmoke;" href="who-are-you">what?</a>
-        <a style="color: palevioletred;" href="https://osu.ppy.sh/users/5116930" target="_blank">osu!</a>
-        <a style="color: purple;" href="https://www.twitch.tv/shotgunayyype" target="_blank">twitch</a>
-        <a style="color: red;" href="https://www.youtube.com/channel/UCdjrpcluf6nyC88QY7Vf6QA"
-            target="_blank">youtube</a>
-    </div>
-    <div class="lastup">
-        <p style="letter-spacing: 0.25px; text-align: right;" id="lastModified"></p>
-    </div>
-</header>
+    <body onload="req('ShotgunApe')">
+        <div class="content">
+            <br><br>
+            <h2>plays i think are cool</h2>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/gC0GD_ALXEo" title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/dl31V0zYJi0" title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            <br><br>
+        </div>
+    </body>
 
-<body onload="req('ShotgunApe')">
-    <div class="content">
-        <br><br>
-        <h2>plays i think are cool</h2>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/gC0GD_ALXEo" title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen></iframe>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/dl31V0zYJi0" title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen></iframe>
-        <br><br>
-        <h2></h2>
-    </div>
-</body>
-
-<footer>
-    <h6 style="letter-spacing: 0.25px;">htgn - Will Sieber</h6>
-</footer>
-
+    <footer>
+        <h5 style="letter-spacing: 0.5px;">htgn - Will Sieber</h5>
+    </footer>
 </html>

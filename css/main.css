@@ -32,6 +32,9 @@ html {
 a:link {
     text-decoration: none;
 }
+a:link:hover {
+    text-decoration: underline;
+}
 
 a:hover.index {
     animation-play-state: running;
@@ -39,13 +42,14 @@ a:hover.index {
     animation-duration: 600ms;
     animation-iteration-count: 1;
     animation-timing-function: linear;
+    text-decoration: none;
 }
 
+/*I removed the `line-height` element because on mobile, it looked bad and you couldn't read it.*/
 .content {
     text-align: center;
     padding-top: 50px;
     padding-bottom: 30px;
-    line-height: 4px;
 }
 
 header {
