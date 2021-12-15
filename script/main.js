@@ -26,10 +26,10 @@ function proj(username) {
     xhr.open('GET', url, true);
 
     xhr.onload = function () {
-        const data = JSON.parse(this.reponse);
+        const data = JSON.parse(this.response);
         
         for (i = 0; i < data.length; i++) {
-            document.getElementById("projectsGithub").innerText = data[i].name;
+            document.getElementById(`projectsGithub${i}`).innerText = data[i].name;
         }
     }
     xhr.send();
