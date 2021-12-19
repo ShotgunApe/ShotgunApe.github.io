@@ -1,5 +1,4 @@
 const xhr = new XMLHttpRequest();
-//I hate semicolons
 
 function req(username) {
     const url = `https://api.github.com/users/${username}/repos`;
@@ -21,7 +20,7 @@ function req(username) {
 
 function proj(data) {
     for (i = 0; i < data.length; i++) {
-        document.getElementById(`projectsGithub${i}`).innerHTML = "<a href='" + data[i].html_url + "' target='_blank' style='color:teal'>'" + data[i].name + "' </a>";
+        document.getElementById(`projectsGithub${i}`).innerHTML = `<a href='${data[i].html_url}' target='_blank' style='color:grey; text-decoration:none;'>${data[i].name}</a>`;
     }
 }
 

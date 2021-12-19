@@ -1,48 +1,33 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bitter&display=swap" rel="stylesheet"> 
         <link rel="stylesheet" type="text/css" href="css/main.css" />
-        <script src="script/main.js"></script>
-        <title>htgn - home</title>
         <meta charset="utf-8">
-        <meta name="description" content="htgn: what's on here">
-        <!--Better for mobile viewing-->
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="script/main.js"></script>
     </head>
+   
     <header>
-        <a class="index" style="color: whitesmoke;" href="index">htgn.xyz</a>
-        <div class="sidebar">
-            <a style="padding-left:6px; padding-right: 6px;">-</a>
-            <a style="color: whitesmoke;" href="who-are-you">what?</a>
-            <a style="color: palevioletred;" href="https://osu.ppy.sh/users/5116930" target="_blank">osu!</a>
-            <a style="color: purple;" href="https://www.twitch.tv/shotgunayyype" target="_blank">twitch</a>
-            <a style="color: red;" href="https://www.youtube.com/channel/UCdjrpcluf6nyC88QY7Vf6QA"
-                target="_blank">youtube</a>
-        </div>
-        <div class="lastup">
-            <p style="letter-spacing: 0.25px; text-align: right;" id="lastModified"></p>
-        </div>
+        <p style="letter-spacing: 0.25px; text-align: right; font-size: 80%" id="lastModified"></p>
+        <h1 style="margin: 5px;">htgn</h1>
+        <a href="https://twitter.com/ApeShotgun" style="color:teal; text-decoration: none;" target="_blank">@ApeShotgun</a>
+        <a href="https://github.com/ShotgunApe" style="color:grey; text-decoration: none;" target="_blank">GitHub</a>
     </header>
 
     <body onload="req('ShotgunApe')">
-        <div class="content">
-            <br>
-            <h2>plays i think are cool</h2>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/gC0GD_ALXEo" title="YouTube video player"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/dl31V0zYJi0" title="YouTube video player"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
-            <br><br>
-        </div>
+        <br>
+        <p style="margin: 5px;">projects</p>
+        <div id="projectsGithub0"></div>
+        <div id="projectsGithub1"></div>
+        <div id="projectsGithub2"></div>
+        <br>
     </body>
 
     <footer>
-        <h5 style="letter-spacing: 0.5px;">htgn - Will Sieber</h5>
+        <a href="who-are-you" style="color:grey; font-size: 80%; text-decoration: none;">what?</a>
+        <h6 style="letter-spacing: 0.75px; margin:3px;">Will Sieber</h6>
     </footer>
 </html>

@@ -1,69 +1,7 @@
 html {
-    color: whitesmoke;
-    background-color: black;
-    font-family: 'DM Sans', sans-serif;
+    color: black;
+    background-color: whitesmoke;
+    font-family: 'Bitter', serif;
     font-size: 14px;
     text-align: center;
-}
-
-/* these first two classes suckkkk, change this soon future me */
-
-.index {
-    position: fixed;
-    font-size: 18px;
-    top: 14px;
-    left: 20px;
-}
-
-.sidebar {
-    position: fixed;
-    font-size: 18px;
-    top: 14px;
-    left: 93px;
-}
-
-.lastup {
-    position: fixed;
-    font-size: 12px;
-    top: 7px;
-    right: 20px;
-}
-
-a:link {
-    text-decoration: none;
-}
-a:link:hover {
-    text-decoration: underline;
-}
-
-a:hover.index {
-    animation-play-state: running;
-    animation-name: hover;
-    animation-duration: 600ms;
-    animation-iteration-count: 1;
-    animation-timing-function: linear;
-    text-decoration: none;
-}
-
-/*I removed the `line-height` element because on mobile, it looked bad and you couldn't read it.*/
-.content {
-    text-align: center;
-    padding-top: 50px;
-    padding-bottom: 30px;
-}
-
-header {
-    position: fixed;
-    top: 10px;
-    background-color: rgb(36, 36, 36);
-    left: 10px;
-    right: 10px;
-    height: 35px;
-    border-radius: 5px 5px 5px 5px;
-}
-
-@keyframes hover {
-    0% {text-shadow: 0 0.5em 0 whitesmoke;}
-    1% {text-shadow: 0 0.5em 0 whitesmoke, 0 1em 0 gray;}
-    2% {text-shadow: 0 0.5em 0 whitesmoke, 0 1em 0 gray, 0 1.5em 0 rgb(32, 32, 32);}
 }
