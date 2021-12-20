@@ -1,7 +1,10 @@
 html {
     color: black;
-    background-color: whitesmoke;
+    background-color: white;
     font-family: 'Bitter', serif;
     font-size: 14px;
-    text-align: center;
+    max-width: calc(800px - (30px * 2));
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
 }
